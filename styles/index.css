@@ -1,0 +1,44 @@
+#header-list{
+
+    list-style-type: none;
+    text-align : end;
+
+}
+
+#header-list li , #nav-list li{
+
+    display : inline-block;
+    margin : 0px 10px;
+
+}
+#header-list li a ,  #nav-list li a{
+
+    text-decoration: none;
+    color : blue;
+
+}
+.f-l{
+    float: left;
+}
+.f-r{
+    float: right;
+}
+input[type="text"]{
+
+    width : 20px;
+    border-radius : 5px;
+    border : 1px solid;
+    padding : 5px;
+    position: relative;
+    bottom : 5px;
+
+}
+svg.fa-search{
+
+    position : relative;
+    right : 25px;
+    bottom: 3px;
+    opacity: .5;
+    cursor: pointer;
+
+}

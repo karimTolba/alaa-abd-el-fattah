@@ -11,6 +11,18 @@
     margin : 0px 10px;
 
 }
+#nav-list{
+
+    height : 40px;
+    border : 1px solid;
+
+}
+#nav-list li{
+
+    border : 1px solid;
+    padding : 5px;
+
+}
 #header-list li a ,  #nav-list li a{
 
     text-decoration: none;
@@ -26,10 +38,8 @@
 input[type="text"]{
 
     width : 20px;
-    border-radius : 5px;
-    border : 1px solid;
-    padding : 5px;
     position: relative;
+    border : none;
     bottom : 5px;
 
 }
@@ -37,7 +47,6 @@ svg.fa-search{
 
     position : relative;
     right : 25px;
-    bottom: 3px;
     opacity: .5;
     cursor: pointer;
 
